@@ -1,0 +1,2 @@
+# music
+first AI idea
