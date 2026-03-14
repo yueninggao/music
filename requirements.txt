@@ -1,0 +1,13 @@
+# Core dependencies (pure-Python; no heavy ML framework required for the
+# rule-based engine).  Optional packages unlock real video processing.
+
+# ── Optional: real video frame extraction ──────────────────────────────────
+# opencv-python>=4.5.0          # real frame extraction (use_opencv=True)
+# numpy>=1.21.0                 # required by opencv-python
+
+# ── Optional: deep-learning model integration ──────────────────────────────
+# torch>=2.0.0                  # PyTorch backend for custom model_fn
+# transformers>=4.30.0          # HuggingFace / CLIP-based classifier
+
+# ── Testing ────────────────────────────────────────────────────────────────
+pytest>=7.0.0
